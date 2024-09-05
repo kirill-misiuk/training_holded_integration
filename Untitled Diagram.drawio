@@ -1,16 +1,16 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="819" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="479" dy="278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="j4ppFfh7coL_AdbM1LWi-5" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
-          <mxGeometry x="90" y="30" width="20" height="410" as="geometry" />
+          <mxGeometry x="90" y="30" width="20" height="570" as="geometry" />
         </mxCell>
         <mxCell id="j4ppFfh7coL_AdbM1LWi-47" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-5">
           <mxGeometry y="60" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j4ppFfh7coL_AdbM1LWi-7" value="Frontend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-7" value="Mobile" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="160" y="30" width="100" height="570" as="geometry" />
         </mxCell>
         <mxCell id="j4ppFfh7coL_AdbM1LWi-48" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-7">
@@ -22,13 +22,16 @@
         <mxCell id="j4ppFfh7coL_AdbM1LWi-75" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-7">
           <mxGeometry x="40" y="310" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="j4ppFfh7coL_AdbM1LWi-76" value="&lt;font style=&quot;font-size: 4px;&quot;&gt;Подписание запроса публичным ключем&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="j4ppFfh7coL_AdbM1LWi-75" parent="j4ppFfh7coL_AdbM1LWi-7">
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-76" value="&lt;font style=&quot;font-size: 4px;&quot;&gt;Подписание запроса приватным ключем&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="j4ppFfh7coL_AdbM1LWi-75" parent="j4ppFfh7coL_AdbM1LWi-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="45" y="290" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="75" y="320" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-88" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-7">
+          <mxGeometry x="40" y="530" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="j4ppFfh7coL_AdbM1LWi-8" value="Backend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="380" y="30" width="100" height="570" as="geometry" />
@@ -51,8 +54,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j4ppFfh7coL_AdbM1LWi-65" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-8">
-          <mxGeometry x="40" y="210" width="10" height="80" as="geometry" />
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-65" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-8">
+          <mxGeometry x="40" y="210" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="j4ppFfh7coL_AdbM1LWi-81" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-8">
           <mxGeometry x="40" y="350" width="10" height="50" as="geometry" />
@@ -70,7 +73,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j4ppFfh7coL_AdbM1LWi-85" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-8">
-          <mxGeometry x="40" y="480" width="10" height="40" as="geometry" />
+          <mxGeometry x="40" y="490" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="j4ppFfh7coL_AdbM1LWi-86" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Проверка подписи&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="j4ppFfh7coL_AdbM1LWi-85" parent="j4ppFfh7coL_AdbM1LWi-8">
           <mxGeometry relative="1" as="geometry">
@@ -87,7 +90,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j4ppFfh7coL_AdbM1LWi-19" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;Отправка OTP по sms&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;align=center;" edge="1" parent="1">
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-19" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;Отправка OTP по sms (phone)&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;align=center;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="209.99666666666664" y="100" as="sourcePoint" />
             <mxPoint x="420" y="100" as="targetPoint" />
@@ -97,10 +100,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j4ppFfh7coL_AdbM1LWi-41" value="KeyStore" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="270" y="30" width="100" height="540" as="geometry" />
+          <mxGeometry x="270" y="30" width="100" height="570" as="geometry" />
         </mxCell>
         <mxCell id="j4ppFfh7coL_AdbM1LWi-64" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-41">
-          <mxGeometry x="40" y="210" width="10" height="50" as="geometry" />
+          <mxGeometry x="40" y="210" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="j4ppFfh7coL_AdbM1LWi-42" value="&lt;span style=&quot;font-size: 5px; background-color: rgb(251, 251, 251);&quot;&gt;Ввод&amp;nbsp; кода из смс&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0032" width="80" relative="1" as="geometry">
@@ -110,7 +113,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j4ppFfh7coL_AdbM1LWi-54" value="Sms service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="490" y="30" width="100" height="540" as="geometry" />
+          <mxGeometry x="490" y="30" width="100" height="570" as="geometry" />
         </mxCell>
         <mxCell id="j4ppFfh7coL_AdbM1LWi-55" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-54">
           <mxGeometry x="40" y="80" width="10" height="20" as="geometry" />
@@ -122,16 +125,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j4ppFfh7coL_AdbM1LWi-57" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Получение кода из sms&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;textShadow=0;" edge="1" parent="1">
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-58" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Проверка OTP (phone, sms code)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="100" y="130" as="sourcePoint" />
-            <mxPoint x="530" y="130" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="j4ppFfh7coL_AdbM1LWi-58" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Проверка OTP&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="j4ppFfh7coL_AdbM1LWi-53">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="210" y="150" as="sourcePoint" />
-            <mxPoint x="290" y="150" as="targetPoint" />
+            <mxPoint x="210" y="160" as="sourcePoint" />
+            <mxPoint x="420" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j4ppFfh7coL_AdbM1LWi-61" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Проверка успешна&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="j4ppFfh7coL_AdbM1LWi-7">
@@ -149,21 +146,21 @@
             <mxPoint x="180" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j4ppFfh7coL_AdbM1LWi-67" value="&lt;font style=&quot;font-size: 4px;&quot;&gt;Хеширование и сохранение PIN-кода&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="j4ppFfh7coL_AdbM1LWi-64">
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-67" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Хеширование и сохранение PIN-кода&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="j4ppFfh7coL_AdbM1LWi-64">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="210" y="250" as="sourcePoint" />
             <mxPoint x="290" y="250" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j4ppFfh7coL_AdbM1LWi-69" value="&lt;font style=&quot;font-size: 4px;&quot;&gt;Генерация пар ключей(private &amp;amp; public)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="j4ppFfh7coL_AdbM1LWi-64">
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-69" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Генерация пар ключей(private &amp;amp; public)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="j4ppFfh7coL_AdbM1LWi-64">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="210" y="279.8" as="sourcePoint" />
             <mxPoint x="290" y="279.8" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j4ppFfh7coL_AdbM1LWi-70" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Отправка публичного ключа&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-70" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Отправка публичного ключа&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="210" y="310" as="sourcePoint" />
             <mxPoint x="420" y="310" as="targetPoint" />
@@ -178,14 +175,337 @@
             <mxPoint x="290" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j4ppFfh7coL_AdbM1LWi-87" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Отправка токена аутентификации&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="j4ppFfh7coL_AdbM1LWi-7">
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-87" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Отправка токена аутентификации&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="j4ppFfh7coL_AdbM1LWi-88">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="510" as="sourcePoint" />
-            <mxPoint x="340" y="510" as="targetPoint" />
+            <mxPoint x="424.92" y="560" as="sourcePoint" />
+            <mxPoint x="215.08666666666662" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j4ppFfh7coL_AdbM1LWi-88" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="200" y="510" width="10" height="40" as="geometry" />
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-92" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="90" y="630" width="20" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-113" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-92">
+          <mxGeometry y="70" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-94" value="Frontend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="160" y="630" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-115" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-94">
+          <mxGeometry x="40" y="70" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-120" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-94">
+          <mxGeometry x="40" y="130" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-121" value="&lt;span style=&quot;font-size: 4px;&quot;&gt;Подписание запроса приватным ключем&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="j4ppFfh7coL_AdbM1LWi-120" parent="j4ppFfh7coL_AdbM1LWi-94" source="j4ppFfh7coL_AdbM1LWi-115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="110" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="110" />
+              <mxPoint x="75" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-130" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-94">
+          <mxGeometry x="40" y="320" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-99" value="KeyStore" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="270" y="630" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-116" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-99">
+          <mxGeometry x="40" y="70" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-101" value="Backend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="380" y="630" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-123" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-101">
+          <mxGeometry x="40" y="170" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-126" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-101">
+          <mxGeometry x="40" y="230" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-127" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Извлечение публичного ключа&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="j4ppFfh7coL_AdbM1LWi-126" parent="j4ppFfh7coL_AdbM1LWi-101" source="j4ppFfh7coL_AdbM1LWi-123">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="210" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="200" />
+              <mxPoint x="75" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-128" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-101">
+          <mxGeometry x="40" y="290" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-129" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;Проверка подписи&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="j4ppFfh7coL_AdbM1LWi-128" parent="j4ppFfh7coL_AdbM1LWi-101" source="j4ppFfh7coL_AdbM1LWi-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="280" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="260" />
+              <mxPoint x="75" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-111" value="Sms service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="490" y="630" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-114" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Ввод PIN-кода&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="700" as="sourcePoint" />
+            <mxPoint x="200" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-117" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Получение private ключа&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="j4ppFfh7coL_AdbM1LWi-94" target="j4ppFfh7coL_AdbM1LWi-116">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="230" y="710" as="sourcePoint" />
+            <mxPoint x="310" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-122" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;Отправка подписанного запроса(get access token)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="j4ppFfh7coL_AdbM1LWi-123">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="210" y="800" as="sourcePoint" />
+            <mxPoint x="290" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-131" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;Отправка токена аутентификации&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="j4ppFfh7coL_AdbM1LWi-128" target="j4ppFfh7coL_AdbM1LWi-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="980" as="sourcePoint" />
+            <mxPoint x="345" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-134" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Private ключ&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="j4ppFfh7coL_AdbM1LWi-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="730" as="sourcePoint" />
+            <mxPoint x="230" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-136" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;Отправка&amp;nbsp; кода из sms&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="j4ppFfh7coL_AdbM1LWi-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="130" as="sourcePoint" />
+            <mxPoint x="450" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-137" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1080" width="20" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-138" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-137">
+          <mxGeometry y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-165" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-137">
+          <mxGeometry y="250" width="10" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-139" value="Mobile" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="160" y="1080" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-140" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-139">
+          <mxGeometry x="40" y="60" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-141" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-139">
+          <mxGeometry x="40" y="250" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-142" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-139">
+          <mxGeometry x="40" y="350" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-143" value="&lt;font style=&quot;font-size: 4px;&quot;&gt;Подписание запроса приватным ключем&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="j4ppFfh7coL_AdbM1LWi-139" target="j4ppFfh7coL_AdbM1LWi-142" source="j4ppFfh7coL_AdbM1LWi-141">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="290" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="320" />
+              <mxPoint x="75" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-144" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-139">
+          <mxGeometry x="40" y="530" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-145" value="Backend" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="380" y="1080" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-146" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-145">
+          <mxGeometry x="40" y="60" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-147" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-145">
+          <mxGeometry x="40" y="160" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-148" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Проверка OTP&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="j4ppFfh7coL_AdbM1LWi-145" source="j4ppFfh7coL_AdbM1LWi-146">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="70" y="140" />
+              <mxPoint x="70" y="170" />
+            </Array>
+            <mxPoint x="50" y="170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-150" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-145">
+          <mxGeometry x="40" y="390" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-151" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-145">
+          <mxGeometry x="40" y="440" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-152" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Извлечение публичного ключа&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="j4ppFfh7coL_AdbM1LWi-145" target="j4ppFfh7coL_AdbM1LWi-151" source="j4ppFfh7coL_AdbM1LWi-150">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="400" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="420" />
+              <mxPoint x="75" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-153" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-145">
+          <mxGeometry x="40" y="490" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-154" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Проверка подписи&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="j4ppFfh7coL_AdbM1LWi-145" target="j4ppFfh7coL_AdbM1LWi-153">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="50" y="470" />
+              <mxPoint x="75" y="470" />
+              <mxPoint x="75" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-175" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-145">
+          <mxGeometry x="40" y="210" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-176" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Проверка успешна&lt;br&gt;Сохранение публичного ключа&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="j4ppFfh7coL_AdbM1LWi-175" parent="j4ppFfh7coL_AdbM1LWi-145" source="j4ppFfh7coL_AdbM1LWi-147">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="190" />
+              <mxPoint x="75" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-155" value="&lt;span style=&quot;font-size: 5px; background-color: rgb(251, 251, 251);&quot;&gt;Ввод номера телефона&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0032" width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="1160" as="sourcePoint" />
+            <mxPoint x="200" y="1160" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-156" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;Отправка OTP по sms (phone)&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;align=center;" edge="1" parent="1">
+          <mxGeometry x="-0.0006" width="80" relative="1" as="geometry">
+            <mxPoint x="209.99666666666664" y="1180" as="sourcePoint" />
+            <mxPoint x="420" y="1180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="1180" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-157" value="KeyStore" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="270" y="1080" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="j4ppFfh7coL_AdbM1LWi-157" source="j4ppFfh7coL_AdbM1LWi-158" target="j4ppFfh7coL_AdbM1LWi-157">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="310" />
+              <mxPoint x="60" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-158" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-157">
+          <mxGeometry x="40" y="250" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-177" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-157">
+          <mxGeometry x="40" y="50" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-184" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-157">
+          <mxGeometry x="40" y="300" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-186" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="j4ppFfh7coL_AdbM1LWi-157" source="j4ppFfh7coL_AdbM1LWi-158" target="j4ppFfh7coL_AdbM1LWi-184">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="280" />
+              <mxPoint x="70" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-159" value="&lt;span style=&quot;font-size: 5px; background-color: rgb(251, 251, 251);&quot;&gt;Ввод&amp;nbsp; кода из смс&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0032" width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="1220" as="sourcePoint" />
+            <mxPoint x="200" y="1220" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-160" value="Sms service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="490" y="1080" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-161" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="j4ppFfh7coL_AdbM1LWi-160">
+          <mxGeometry x="40" y="80" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-162" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Генерация и отправка OTP&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="430" y="1180" as="sourcePoint" />
+            <mxPoint x="530" y="1180" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-163" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Проверка OTP, отправка публичного ключа (phone, sms code, publicKey&lt;/font&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="210" y="1230" as="sourcePoint" />
+            <mxPoint x="420" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-164" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Проверка успешна&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="j4ppFfh7coL_AdbM1LWi-139">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1270" as="sourcePoint" />
+            <mxPoint x="340" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-166" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Установка PIN-кода&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="1330" as="sourcePoint" />
+            <mxPoint x="199.9999999999999" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-167" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Хеширование и сохранение PIN-кода&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="210" y="1340" as="sourcePoint" />
+            <mxPoint x="310" y="1340" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-170" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Отправка подписанного запроса&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="210" y="1470" as="sourcePoint" />
+            <mxPoint x="420" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-171" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Отправка токена аутентификации&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="j4ppFfh7coL_AdbM1LWi-144">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="424.92" y="1610" as="sourcePoint" />
+            <mxPoint x="215.08666666666662" y="1610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-172" value="&lt;span style=&quot;font-size: 6px;&quot;&gt;Отправка&amp;nbsp; кода из sms&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="529.75" y="1200" as="sourcePoint" />
+            <mxPoint x="100.00308641975306" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-178" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Генерация пар ключей(private &amp;amp; public)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="210" y="1150" as="sourcePoint" />
+            <mxPoint x="310" y="1150.2" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-180" value="&lt;span style=&quot;font-size: 5px; background-color: rgb(251, 251, 251);&quot;&gt;Запуск приложения&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0032" width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="1140" as="sourcePoint" />
+            <mxPoint x="200" y="1140" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j4ppFfh7coL_AdbM1LWi-188" value="&lt;span style=&quot;font-size: 6px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Шифрование приватного ключа&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1360" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
